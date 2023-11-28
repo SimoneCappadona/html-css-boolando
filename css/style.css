@@ -12,10 +12,6 @@ body {
 
   /* debug */
 }
-main {
-}
-footer {
-}
 
 /* Header */
 
@@ -50,7 +46,20 @@ i {
   justify-content: center;
   align-items: center;
   margin-top: 90px;
-
+}
+.heart {
+  text-align: center;
+  font-size: xx-large;
+  border: 2px solid white;
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  margin-left: 300px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.heart:hover {
+  color: red;
 }
 .main-box {
   display: flex;
@@ -65,16 +74,64 @@ i {
   justify-content: center;
   align-items: center;
   margin-top: 90px;
-  
 }
+
+.sale {
+  position: absolute;
+  margin-top: 450px;
+  margin-right: 190px;
+}
+.label {
+  display: inline-block;
+  margin: 3px;
+  color: white;
+  background-color: red;
+  padding: 3px;
+  font-weight: bolder;
+}
+.label-sale {
+  margin-right: 115px;
+}
+.friendly {
+  margin-right: 55px;
+}
+.color-label {
+  background-color: green;
+}
+/* hover */
+
 
 /* footer */
 
 .grey-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #1a1a1a;
-  height: 100px;
+  height: 90px;
   margin-top: 150px;
+}
+
+.footer-bold-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 22%;
+}
+.info {
+  color: white;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 22%;
+}
+.social {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 75%;
+  position: absolute;
+  margin-top: 30px;
+}
+.icon-social {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 73%;
 }
